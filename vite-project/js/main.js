@@ -1,18 +1,16 @@
 import "../styles/style.css";
 import { fruits } from "../js/list";
+import { DOM } from "../js/DOM";
 
-const DOM = {
-  cards: document.getElementById("cards"),
-};
 function makeCards() {
-  DOM.cards.insertAdjacetntHTML(
-    "beforeend,",
+  DOM.cards.insertAdjacentHTML(
+    "beforeend",
     `
       <div class="result">
-      <h2 class="subtitle">${fruits.name}</h2>
+      <h2 class="individual-name"> ${fruits.name}</h2> 
+      
       </div>
-    `
+      `
   );
 }
 makeCards();
-console.log(fruits);

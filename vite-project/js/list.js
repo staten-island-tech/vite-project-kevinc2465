@@ -1,7 +1,7 @@
 const fruits = [
   {
     name: "apple",
-    color: "red",
+    origin: "Kazakhstan",
     price_per_lb: 1.31,
     flavor: "sweet",
     img_url:
@@ -9,7 +9,7 @@ const fruits = [
   },
   {
     name: "orange",
-    color: "orange",
+    origin: "China",
     price_per_lb: 1.73,
     img_url:
       "https://healthjade.com/wp-content/uploads/2017/10/orange-fruit.jpg",
@@ -17,7 +17,7 @@ const fruits = [
   },
   {
     name: "banana",
-    color: "yellow",
+    origin: "Indoeisa",
     price_per_lb: 0.33,
     img_url:
       "https://i5.walmartimages.com/asr/5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg",
@@ -25,7 +25,7 @@ const fruits = [
   },
   {
     name: "lemon",
-    color: "yellow",
+    origin: "Indoneisa",
     price_per_lb: 0.79,
     img_url:
       "https://www.shutterstock.com/image-photo/lemon-fruit-leaf-isolate-whole-260nw-1727353507.jpg",
@@ -33,7 +33,7 @@ const fruits = [
   },
   {
     name: "lime",
-    color: "green",
+    origin: "Indonesia",
     price_per_lb: 0.5,
     img_url:
       "https://i5.walmartimages.com/asr/12314833-2e54-4739-94a2-7db45b63109d.16ff07e3c111df9be4158853c2e505ef.jpeg",
@@ -41,7 +41,7 @@ const fruits = [
   },
   {
     name: "blueberry",
-    color: "blue",
+    origin: "North America",
     price_per_lb: 0.6,
     img_url:
       "http://cdn.shopify.com/s/files/1/2336/3219/products/shutterstock_167872100blueberry1_1024x1024.jpg?v=1531795854",
@@ -49,7 +49,7 @@ const fruits = [
   },
   {
     name: "passionfruit",
-    color: "purple",
+    origin: "Brazil",
     price_per_lb: 0.5,
     img_url:
       "https://www.parasperfumers.com/upload/product_ecom/Passionfruit-Seed-Maracuja-Oil.jpg",
@@ -57,7 +57,7 @@ const fruits = [
   },
   {
     name: "lychees",
-    color: "pink",
+    origin: "China",
     price_per_lb: 3.0,
     img_url:
       "https://s.cornershopapp.com/product-images/2463727.jpg?versionId=hHCN4xn9qmmfdA1o5Kw.ku_98hR2Hf7c",
@@ -65,7 +65,7 @@ const fruits = [
   },
   {
     name: "blackberry",
-    color: "dark-purple",
+    origin: "North America",
     price_per_lb: 3.08,
     img_url:
       "https://post.healthline.com/wp-content/uploads/2020/03/black-raspberries-732x549-thumbnail.jpg",
