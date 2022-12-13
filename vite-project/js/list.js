@@ -17,7 +17,7 @@ const fruits = [
   },
   {
     name: "banana",
-    origin: "Indoeisa",
+    origin: "Indoneisa",
     price_per_lb: 0.33,
     img_url:
       "https://i5.walmartimages.com/asr/5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg",
