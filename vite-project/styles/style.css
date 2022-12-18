@@ -1,10 +1,11 @@
 body{
     background-color: rgb(255, 189, 51);
-
-}
+    font-family: 'Noto Serif NP Hmong', serif;
+  }
 .heading{
     background-color: brown;
     text-align: center;    
+    margin-bottom: 2rem;
 }
 p{
   font-size: 2rem;
@@ -18,12 +19,22 @@ h2{
   color: chartreuse;
   font-size: 3rem;
 }
+.image{
+  width: 50%
+}
+#cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .result{
   background-color:chocolate;
-  width: 25%;
+  width: 30%;
   text-align: center;
   border-radius: 5%;
   box-shadow: 10px 10px 10px black;
+  margin-bottom: 2.5rem;
 }
 .buttons{
     display: flex;

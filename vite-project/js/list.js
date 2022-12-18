@@ -5,7 +5,7 @@ const fruits = [
     price_per_lb: 1.31,
     flavor: "sweet",
     img_url:
-      "https://healthjade.com/wp-content/uploads/2017/10/apple-fruit.jpg",
+      "https://i.pinimg.com/originals/d3/1e/01/d31e0135469b9db2a37fe773a2a54f5c.jpg",
   },
   {
     name: "Orange",
