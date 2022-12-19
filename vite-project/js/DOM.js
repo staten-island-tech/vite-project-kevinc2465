@@ -4,6 +4,7 @@ const DOM = {
   China: document.getElementById("China"),
   Indoneisa: document.getElementById("Indoneisa"),
   NorthAmerica: document.getElementById("NorthAmerica"),
-  theme: document.getAnimations("theme"),
+  theme: document.getElementById("theme"),
+  reset: document.getElementById("reset"),
 };
 export { DOM };
