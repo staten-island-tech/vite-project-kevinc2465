@@ -1,4 +1,4 @@
-const fruits = [
+let fruits = [
   {
     name: "Apple",
     origin: "Kazakhstan",
@@ -41,7 +41,7 @@ const fruits = [
   },
   {
     name: "Blueberry",
-    origin: "North America",
+    origin: "NorthAmerica",
     price_per_lb: 0.6,
     img_url:
       "http://cdn.shopify.com/s/files/1/2336/3219/products/shutterstock_167872100blueberry1_1024x1024.jpg?v=1531795854",
@@ -65,7 +65,7 @@ const fruits = [
   },
   {
     name: "Blackberry",
-    origin: "North America",
+    origin: "NorthAmerica",
     price_per_lb: 3.08,
     img_url:
       "https://post.healthline.com/wp-content/uploads/2020/03/black-raspberries-732x549-thumbnail.jpg",
