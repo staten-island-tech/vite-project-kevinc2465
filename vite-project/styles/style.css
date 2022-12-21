@@ -1,7 +1,18 @@
-body{
-    background-color: rgb(255, 189, 51);
+/* body{
     font-family: 'Noto Serif NP Hmong', serif;
-  }
+  } */
+:root {
+--gold-yellow: #FFD700;
+--light-green: ##90EE90;
+--primary: var(--gold-yellow);
+}
+.first{
+--primary: var(--gold-yellow);
+}
+.second{
+--primary: var(--light-green);
+}
+
 .heading{
     background-color: brown;
     text-align: center;    
@@ -49,22 +60,4 @@ h2{
 #reset{
   font-size: 1.5rem;
 }
-
-:root {
---gold-yellow: rgb(255, 189, 51);
---brown: rgb(129, 40, 40)
---gray: #5b7c99;
---smoke: #cfe8ef;
---primary:var(--gold-yellow);
---secondary: var(--brown);
-}
-.first{
---primary: var(--);
---secondary: var(--gold-yellow)
-};
-.second{
---primary: var(--gray);
---secondary: var(--smoke)
-};
-
 

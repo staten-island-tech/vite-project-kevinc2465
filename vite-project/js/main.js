@@ -1,10 +1,9 @@
 import "../styles/style.css";
-import "../js/function";
 import { fruits } from "./list";
 import { DOM } from "./DOM";
 
 function makeCard() {
-fruits.forEach((fruits) => {
+  fruits.forEach((fruits) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
       `
@@ -17,16 +16,18 @@ fruits.forEach((fruits) => {
         </div>
         `
     );
-  })};
-  makeCard();
+  });
+}
+makeCard();
 
 function clearField() {
   document.querySelectorAll(".result").forEach((result) => {
-      result.remove();
-  })};
+    result.remove();
+  });
+}
 
 function filterKazakhstan() {
-  const results = fruits.filter((fruit) => fruit.origin === (`Kazakhstan`))
+  const results = fruits.filter((fruit) => fruit.origin === `Kazakhstan`);
   results.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
@@ -40,16 +41,16 @@ function filterKazakhstan() {
         </div>
         `
     );
-  })
-};
+  });
+}
 
-DOM.Kazakhstan.addEventListener("click", function(){
+DOM.Kazakhstan.addEventListener("click", function () {
   clearField();
   filterKazakhstan();
 });
 
 function filterChina() {
-  const results = fruits.filter((fruit) => fruit.origin === (`China`))
+  const results = fruits.filter((fruit) => fruit.origin === `China`);
   results.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
@@ -63,16 +64,16 @@ function filterChina() {
         </div>
         `
     );
-  })
-};
+  });
+}
 
-DOM.China.addEventListener("click", function(){
+DOM.China.addEventListener("click", function () {
   clearField();
   filterChina();
 });
 
 function filterIndoneisa() {
-  const results = fruits.filter((fruit) => fruit.origin === (`Indoneisa`))
+  const results = fruits.filter((fruit) => fruit.origin === `Indoneisa`);
   results.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
@@ -86,16 +87,16 @@ function filterIndoneisa() {
         </div>
         `
     );
-  })
-};
+  });
+}
 
-DOM.Indoneisa.addEventListener("click", function(){
+DOM.Indoneisa.addEventListener("click", function () {
   clearField();
   filterIndoneisa();
 });
 
 function filterNorthAmerica() {
-  const results = fruits.filter((fruit) => fruit.origin === (`NorthAmerica`))
+  const results = fruits.filter((fruit) => fruit.origin === `NorthAmerica`);
   results.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
@@ -109,16 +110,16 @@ function filterNorthAmerica() {
         </div>
         `
     );
-  })
-};
+  });
+}
 
-DOM.NorthAmerica.addEventListener("click", function(){
+DOM.NorthAmerica.addEventListener("click", function () {
   clearField();
   filterNorthAmerica();
 });
 
 function filterBrazil() {
-  const results = fruits.filter((fruit) => fruit.origin === (`Brazil`))
+  const results = fruits.filter((fruit) => fruit.origin === `Brazil`);
   results.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
@@ -132,19 +133,25 @@ function filterBrazil() {
         </div>
         `
     );
-  })
-};
+  });
+}
 
-DOM.Brazil.addEventListener("click", function(){
+DOM.Brazil.addEventListener("click", function () {
   clearField();
   filterBrazil();
 });
 
-DOM.reset.addEventListener("click", function(){
+DOM.reset.addEventListener("click", function () {
   clearField();
   makeCard();
-})
+});
 
-
-
-
+DOM.theme.addEventListener("click", function () {
+  if (document.body.classList.contains("first")) {
+    document.body.classList.add("second");
+    document.body.classList.remove("first");
+  } else {
+    document.body.classList.add("first");
+    document.body.classList.remove("second");
+  }
+});
