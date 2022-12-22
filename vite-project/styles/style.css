@@ -1,20 +1,20 @@
-/* body{
-    font-family: 'Noto Serif NP Hmong', serif;
-  } */
 :root {
 --gold-yellow: #FFD700;
---light-green: ##90EE90;
---primary: var(--gold-yellow);
+--blue: #2596be;
 }
 .first{
---primary: var(--gold-yellow);
+background-color: var(--gold-yellow);
+font-family: 'Noto Serif NP Hmong', serif;
+
 }
 .second{
---primary: var(--light-green);
+background-color: var(--blue);
+font-family: 'Anek Devanagari', sans-serif;
+font-family: 'Martian Mono', monospace;
 }
 
 .heading{
-    background-color: brown;
+    background-color:brown;
     text-align: center;    
     margin-bottom: 2rem;
 }
