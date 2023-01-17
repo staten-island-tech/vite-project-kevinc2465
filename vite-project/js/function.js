@@ -2,16 +2,16 @@ import { fruits } from "./list";
 import { DOM } from "./DOM";
 
 function makeCard() {
-  fruits.forEach((fruits) => {
+  fruits.forEach((fruit) => {
     DOM.cards.insertAdjacentHTML(
       "beforeend",
       `
         <div class="result">
-        <h2 class="individual-name">${fruits.name}</h2>
-        <img class="image" src= "${fruits.img_url}"/>
-        <p class="paragraph"> ${fruits.origin}</p>
-        <p class="paragraph"> ${fruits.flavor}</p>
-        <p class="paragraph"> $${fruits.price_per_lb} per lb</p>
+        <h2 class="individual-name">${fruit.name}</h2>
+        <img class="image" src= "${fruit.img_url}"/>
+        <p class="paragraph"> ${fruit.origin}</p>
+        <p class="paragraph"> ${fruit.flavor}</p>
+        <p class="paragraph"> $${fruit.price_per_lb} per lb</p>
         </div>
         `
     );
