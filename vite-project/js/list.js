@@ -1,4 +1,4 @@
-let fruits = [
+let items = [
   {
     name: "Cranberries",
     origin: "NorthAmerica",
@@ -98,4 +98,4 @@ let fruits = [
   },
 ];
 
-export { fruits };
+export { items };
